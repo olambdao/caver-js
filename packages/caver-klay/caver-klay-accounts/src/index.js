@@ -35,7 +35,7 @@ var RLP = require("eth-lib/lib/rlp");
 var Nat = require("eth-lib/lib/nat");
 var Bytes = require("eth-lib/lib/bytes");
 var cryp = (typeof global === 'undefined') ? require('crypto-browserify') : require('crypto');
-var scryptsy = require('scrypt.js');
+var scryptsy = require('scryptsy');
 var uuid = require('uuid');
 var utils = require('../../../caver-utils');
 var helpers = require('../../../caver-core-helpers');
